@@ -4,7 +4,23 @@ let tableHeaders = []
 let tableColumns = []
 let longestList = 0;
 
+let getWishlistLength = function(wishlist) {
+    let count = 0;
+    for (const item of wishlist) {
+        count++;
+        if (item.subsection) {
+            for (const subItem of item.sublist) {
+                count++
+            }
+        }
+    }
+    console.log("WISHLIST LENGTH: ", count);
+    return count;
+}
+
 let handleSubsection = function(subsection, columnIndex, offset, column, title) {
+    console.log("================== SUBSECTION START ==================")
+    console.log("OFFSET: ", offset)
     let subsecTd = document.createElement("td");
     subsecTd.classList.add("subsection-title")
     subsecTd.innerHTML = title;
@@ -28,6 +44,7 @@ let handleSubsection = function(subsection, columnIndex, offset, column, title) 
         column[columnIndex + offset] = td;
         console.log("COLUMN: ", column);
     }
+    console.log("================== SUBSECTION END ==================")
     console.log("OFFSET: ", offset)
     return offset;
 }
@@ -37,23 +54,23 @@ let handleWishlist = function(wishlist) {
     thead.innerHTML = wishlist.name;
     tableHeaders.push(thead);
     let column = [];
-    let wishlistList = wishlist.wishlist;
+    let actualList = wishlist.wishlist;
     let offset = 0;
-    if (wishlistList.length > longestList) {
-        longestList = wishlistList.length;
+    if (getWishlistLength(actualList) > longestList) {
+        longestList = getWishlistLength(actualList);
     }
-    for (let i = 0; i < wishlistList.length; i++) {
+    for (let i = 0; i < actualList.length; i++) {
         let td = document.createElement("td");
-        if (wishlistList[i].link) {
+        if (actualList[i].link) {
             let a = document.createElement("a");
-            a.innerHTML = wishlistList[i].name;
-            a.href = wishlistList[i].link;
+            a.innerHTML = actualList[i].name;
+            a.href = actualList[i].link;
             td.appendChild(a);
             column[i + offset] = td;
-        } else if (wishlistList[i].subsection) {
-            offset += handleSubsection(wishlistList[i].sublist, i, offset, column, wishlistList[i].title)
+        } else if (actualList[i].subsection) {
+            offset = handleSubsection(actualList[i].sublist, i, offset, column, actualList[i].title)
         } else {
-            td.innerHTML = wishlistList[i].name;
+            td.innerHTML = actualList[i].name;
             column[i + offset] = td;
         }
     }
@@ -74,6 +91,7 @@ let buildWishlistTable = function() {
         for (let j = 0; j < tableColumns.length; j++) {
             
             if (tableColumns[j].length > i) {
+                console.log(tableColumns[j][i], j, i)
                 tr.appendChild(tableColumns[j][i]);
             } else {
                 tr.appendChild(document.createElement("td"));
@@ -91,7 +109,9 @@ let buildWishlistTable = function() {
 
 document.addEventListener("DOMContentLoaded", async function() {
     wishlistTable = document.getElementById("wishlist");
-    let fileResponse = await fetch("./assets/wishlists.json");
+    //PROD: let fileResponse = await fetch("./assets/wishlists.json");
+    //DEV
+    let fileResponse = await fetch("../assets/wishlists.json");
     let json = await fileResponse.json();
     //json = JSON.parse(json);
 

@@ -2,61 +2,185 @@
     "wishlists" : [
         {
             "name" : "Dad",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "link" : "https://www.amazon.com/hz/wishlist/ls/3FCJYLCHSGNKJ?ref_=wl_share",
+                    "name" : "Amazon Wishlist"
+                }
+            ]
         },
         {
             "name" : "Mom",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "link" : "https://www.amazon.com/hz/wishlist/ls/22KO3E9NNNJ2J?ref=cm_sw_em_r_un_un_TuJMEpT7ivl26",
+                    "name" : "Amazon Wishlist"
+                }
+            ]
         },
         {
             "name" : "Kit",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "link" : "https://a.co/d/0fuVextV",
+                    "name" : "Medium of this"
+                },
+                {
+                    "link" : "https://a.co/d/00AiDRRF",
+                    "name" : "Medium of this"
+                },
+                {
+                    "link" : "https://a.co/d/00RyKXJ5",
+                    "name" : "For Mic and I both"
+                },
+                {
+                    "link" : "https://a.co/d/0cUTKJS2",
+                    "name" : "https://a.co/d/0cUTKJS2"
+                },
+                {
+                    "link" : "https://a.co/d/00ThjvDG",
+                    "name" : "https://a.co/d/00ThjvDG"
+                },
+                {
+                    "link" : "https://a.co/d/0izFsEvS",
+                    "name" : "https://a.co/d/0izFsEvS"
+                },
+                {
+                    "link" : "https://a.co/d/0hYoVgRJ",
+                    "name" : "https://a.co/d/0hYoVgRJ"
+                },
+                {
+                    "link" : "https://a.co/d/00gwhPz3",
+                    "name" : "https://a.co/d/00gwhPz3"
+                },
+                {
+                    "link" : "https://a.co/d/02kxGre9",
+                    "name" : "https://a.co/d/02kxGre9"
+                },
+                {
+                    "link" : "https://a.co/d/0fY816xr",
+                    "name" : "https://a.co/d/0fY816xr"
+                }
+            ]
         },
         {
             "name" : "Micaiah",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "subsection" : true,
+                    "title" : "Single Board Computer Components, I'm not asking to get all of these, but any piece to the complete puzzle will be super appreciated!",
+                    "sublist" : [
+                        {
+                            "link" : "https://www.microcenter.com/product/637834/raspberry-pi-4-model-b?rd=1",
+                            "name" : "Raspberry Pi 4, 4 GB RAM (or more)"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/GeeekPi-Raspberry-Supply-40X40X10mm-Heatsinks/dp/B07XDXMN8F/ref=sr_1_1_sspa?crid=1GRI38M7JXCTG&dib=eyJ2IjoiMSJ9.qqOEei7UO7_TLMkqpFG9DUJA_gMe22Esi6Dly1Lc-MFxGHtqWnbH9HMXg4WAaHcSljBFGFsRPhnKgozWohWWlEQDtfqIfZr63G-YC4fpl9b3_CNDgWRzmgyzCvUOxpEHZvNY-QgCDBEGYIQVL0glPjwFOqovzk5iLK90A1sq0kNDeqtoXLGGzH2stA0vesujnfuKSbuuinE-EuWnBskhHLamHTwRvphxoMQJy5pzQb4.vF0GAenITeA27CEvZWUW8GJgSabeidvbKvMfem_z7s4&dib_tag=se&keywords=raspberry+pi+case&qid=1793815505&sprefix=raspberry+pi+c%2Caps%2C253&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+                            "name" : "GeeekPi Case for Raspberry Pi 4 + Power Supply"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/oldboytech-Adapter-Compatible-Raspberry-Capture/dp/B08C2PVP7J/ref=sr_1_1_sspa?crid=32CJXPB7NJHNJ&dib=eyJ2IjoiMSJ9.UvCM75zAlcwNUU7vZ7-LoaECqOe9bxM6M92s1gp3xoMT0e3XEuhjN9LMr4zxi87IALxzcrdWFCItllkIY2GucRZ5qMldTolWNfE9I7DdynPWrD70A7pNgRMsKXX7yvaolfTGfKfbjENgNTyX0mtwO5bWiKmiKJxfelaHaKu5z38wOtApLnSaDMSrOTgv-q2kYmIyJZ-CS8VI6uZTTgMxghCJ_m5SK8Hhb-mrK_EgzyM.7y-AxTFLawy4Y_WbgmHS9cAEr0QU7VbfOnhg7uQONVY&dib_tag=se&keywords=micro+hdmi+to+hdmi&qid=1793815436&sprefix=micro+hdm%2Caps%2C231&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+                            "name" : "Micro HDMI to HDMI Cable"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/dp/B0DB5BW783?ref_=apb_fb_ac_d_apb_fb_asin_memory_card&pd_rd_w=AAWLX&content-id=amzn1.sym.15ea6109-b709-482f-aa95-a96a33d11246%3Aamzn1.sym.15ea6109-b709-482f-aa95-a96a33d11246&pf_rd_p=15ea6109-b709-482f-aa95-a96a33d11246&pf_rd_r=YR1XTYBX7Q6EAMZEMK0K&pd_rd_wg=ybP09&pd_rd_r=24b01902-6e2a-4c76-9c24-7d2cb6d4b979&pd_rd_i=B0DB5BW783&sr=1-1-1c7c554e-c3b9-43b0-8060-ddc1e436c844&qid=1793815725",
+                            "name" : "128 GB Micro SD for Storage/OS"
+                        }
+                    ]
+                },
+                {
+                    "subsection" : true,
+                    "title" : "Gundam Stuff (Gundam's have been my repreave from Lego. They cost less, assembly takes longer, and they take up less space xD)",
+                    "sublist" : [
+                        {
+                            "link" : "https://houseofhobbies.com/products/mr-hobby-gp01-mechanical-pencil-sharp",
+                            "name" : "Gundam Pencil for panel lining"
+                        },
+                        {
+                            "link" : "https://www.usagundamstore.com/products/mg-1-100-freedom-gundam-ver-2-0",
+                            "name" : "MG 1/100 Freedom Gundam 2.0"
+                        },
+                        {
+                            "link" : "https://www.usagundamstore.com/collections/rg/products/rg-1-144-03-aile-strike-gundam",
+                            "name" : "RG 1/144 Aile Strike Gundam"
+                        },
+                        {
+                            "link" : "https://www.usagundamstore.com/collections/hg-model-kits/products/hg-ibo-1-144-08-gundam-gusion",
+                            "name" : "HGIBO 1/144 Gundam Gusion"
+                        },
+                        {
+                            "link" : "https://www.usagundamstore.com/collections/hg-model-kits/products/hgwm-1-144-01-gundam-lfrith",
+                            "name" : "HGTWFM 1/144 Gundam Lfrith"
+                        }
+                    ]
+                },                
+                {
+                    "subsection" : true,
+                    "title" : "Books",
+                    "sublist" : [
+                        {
+                            "link" : "https://www.amazon.com/Pale-Fire-Vladimir-Nabokov/dp/0679723420/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.AhzIhbm0oje-dKcOdNG29512I9Xwr2sAwpRzzDV9hDMPHG79PQbzPJqf0uAZQybObyenNJFinwH_tfKIgwy-D9_u1z43gddWh9qYPrU3UaUFt28mfsEdD4XTOQftXXUQMDDgq2LRRptZoywFZHNQ5-tPrm6hTjp5sdMp_LL8LbV5b7r50cncYOm4FmrUbYnP0HG2gUBnfngJ3K9LC2t0mTF4Vj6PGKcpvVLxXWa37gw.C4kXLZp00pAIW7BynBxzKcB8poKfdMbnW-qeBVoGmX4&qid=1793813988&sr=8-1",
+                            "name" : "Pale Fire"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/Litany-Long-Sun-Nightside-Books/dp/0312872917/ref=sr_1_1?crid=16X7ZK76KV5OQ&dib=eyJ2IjoiMSJ9._Mtvd6kV1unM9QgEzxU7EujkgqSplWQ7y7rknESVgz_1AdKfmVqotGKpUDPjAeSCuMxodMkhE6w2aEVAIdqJBcplbQZsvYu18DT3Ypn1OTqvRz1QpTvDfPhbZ7N13QHHLd4d8dLi0cFMcpOiJgYdzzdhXmxIFxD1DDC33DZaB7I.NUE00_buJw_7ai3HInUEPHqaJaSTSJ4GmFgITIUjV1E&dib_tag=se&keywords=litany+of+the+long+sun&qid=1793814168&sprefix=litany+of+the+long+su%2Caps%2C245&sr=8-1",
+                            "name" : "Litany of the Long Sun"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/Inspiration-Incarnation-Evangelicals-Problem-Testament/dp/0801097487/ref=sr_1_1?crid=3F6J9SP1W9FW8&dib=eyJ2IjoiMSJ9.l66wUlWBxOSCg_MOxBM9B-mDcVChc_KqX7em-vZlPN0iiYexeyJE4MfdJeIc99RwazYyK2i7vmEmV66N4meHDX4WsaXbDAnqAHmqt24_PaILRLVmchPJMc6W6utrfK7UeuKJqiWL1h6YyMLwl_dgNhi8-gzZdxBPIkIh2IBsmD8MMoAgFLb5k1LfZ0UpO42zJ7uZO50c_gE6gN5pLue448d8iJt9VYbYOH7LKYs7eCE.QztU8wK-zqAuGefFIPcinuZEY1MKXQp23nzqOkCoXDA&dib_tag=se&keywords=inspiration+and+incarnation&qid=1793814240&sprefix=inspiration+and+incarnat%2Caps%2C248&sr=8-1",
+                            "name" : "Inspiration and Incarnation"
+                        },
+                        {
+                            "link" : "https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/ref=sr_1_2_sspa?crid=2AWKBCU2X4YWS&dib=eyJ2IjoiMSJ9.Oy1Eg5FD4n0z0fhX5EJukCK3_MFlJ1Rd6BcVV08GOaFePAHaSn0TRpXn0pBnZrC0gkBHrHFpSdHxTeM5KwxNuPOM-QpeaRLTwHuVfNx0lNuZl40iWFrED623SgJV4d6hthqAj9D0IrmyCylz6zh06hFyLohT5emE2XJDTYra7LgClcyjAlwtg9UfPIPG4PArgPLUDZ0WC383w_zU6Iskwkm4Uyjiwv91xfQp41lC4J8.hKenixhpzcsyT2A7wqkHBenlAJnwXl-GqCuXNVmTSao&dib_tag=se&keywords=the+three+body+problem&qid=1793814349&sprefix=the+three+body+pr%2Caps%2C258&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+                            "name" : "The Three Body Problem"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name" : "Monti",
             "wishlist" : [
                 {
-                "link" : "",
-                "name" : "Fino stainless steel frother with lid (or something similar. I have an electric attachment frother on an immersion blender and it doesn't do great)."
-            },
-            {
-                "link" : "",
-                "name" : "ToupsAndCo mascara in black or cream cheek stick in \"Blush\""
-            },
-            {
-                "link" : "",
-                "name" : "Barefoot wide shoes, Mary Janes or Ballet flats in beige or navy or soft red (beige is preferable). Would be nice for church:) maybe something similar to these:"
-            },
-            {
-                "link" : "https://www.etsy.com/listing/4444079662/womens-barefoot-mary-jane-sandals-wide?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=barefoot+white&ref=sc_gallery-1-11&sr_prefetch=0&pf_from=market&pro=1&frs=1&plkey=EuKiknPiNgrvFqoSxR-HFCaOCQd2%3ALTbc3dabf08cb4bbcfd4acf174156302760907347e",
-                "name" : "Linked Sandals"
-            },
-            {
-                "link" : "https://www.etsy.com/listing/4422236781/womens-grounding-shoes-leather-sole?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=barefoot+white&ref=sc_gallery-1-7&sr_prefetch=0&pf_from=market&pro=1&frs=1&plkey=EuKiknPiNgrvFqoSxR-HFCaOCQd2%3ALT446eca8f9d3f075697d53b7b810551df0d2cd962",
-                "name" : "Linked Sandals Option 2"
-            },
-            {
-                "link" : "",
-                "name" : "A nice Bible with note margins"
-            }
+                    "link" : "",
+                    "name" : "Fino stainless steel frother with lid (or something similar. I have an electric attachment frother on an immersion blender and it doesn't do great)."
+                },
+                {
+                    "link" : "",
+                    "name" : "ToupsAndCo mascara in black or cream cheek stick in \"Blush\""
+                },
+                {
+                    "link" : "",
+                    "name" : "Barefoot wide shoes, Mary Janes or Ballet flats in beige or navy or soft red (beige is preferable). Would be nice for church:) maybe something similar to these:"
+                },
+                {
+                    "link" : "https://www.etsy.com/listing/4444079662/womens-barefoot-mary-jane-sandals-wide?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=barefoot+white&ref=sc_gallery-1-11&sr_prefetch=0&pf_from=market&pro=1&frs=1&plkey=EuKiknPiNgrvFqoSxR-HFCaOCQd2%3ALTbc3dabf08cb4bbcfd4acf174156302760907347e",
+                    "name" : "Linked Sandals"
+                },
+                {
+                    "link" : "https://www.etsy.com/listing/4422236781/womens-grounding-shoes-leather-sole?ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=barefoot+white&ref=sc_gallery-1-7&sr_prefetch=0&pf_from=market&pro=1&frs=1&plkey=EuKiknPiNgrvFqoSxR-HFCaOCQd2%3ALT446eca8f9d3f075697d53b7b810551df0d2cd962",
+                    "name" : "Linked Sandals Option 2"
+                },
+                {
+                    "link" : "",
+                    "name" : "A nice Bible with note margins"
+                }
             ]
         },
         {
             "name" : "Isaac",
             "wishlist" : [
                 {
-                    "subsection" : true,
-                    "title" : "Books",
-                    "sublist" : [
-                        {
-                            "link" : "",
-                            "name" : "The Fragile Feast: Routes to Ferran Adria"
-                        }
-                    ]
+                    "name" : "Salt Fat Acid Heat"
+                },
+                {
+                    "name" : "Essentials of Classic Italian Cooking"
+                },
+                {
+                    "name" : "Chef Mastery Blueprint"
+                },
+                {
+                    "name" : "Board Game Carry Bag"
                 },
                 {
                     "subsection" : true,
@@ -64,27 +188,11 @@
                     "sublist" : [
                         {
                             "link" : "",
-                            "name" : "Brass"
+                            "name" : "Thunder Road Vendetta"
                         },
                         {
                             "link" : "",
-                            "name" : "Deep regrets"
-                        },
-                        {
-                            "link" : "",
-                            "name" : "Vanquish"
-                        },
-                        {
-                            "link" : "",
-                            "name" : "Realms of reckoning"
-                        },
-                        {
-                            "link" : "",
-                            "name" : "The old kings crown"
-                        },
-                        {
-                            "link" : "",
-                            "name" : "Galactic cruise"
+                            "name" : "Brass: Birmingham"
                         },
                         {
                             "link" : "",
@@ -92,31 +200,26 @@
                         },
                         {
                             "link" : "",
-                            "name" : "Sky Team"
+                            "name" : "The Old Kings Crown"
                         },
                         {
                             "link" : "",
-                            "name" : "Thunder road vendetta"
+                            "name" : "Realms of reckoning"
                         },
                         {
                             "link" : "",
-                            "name" : "Hegemony"
+                            "name" : "Deep Regrets"
                         },
                         {
                             "link" : "",
-                            "name" : "agent avanue"
+                            "name" : "Smashup Munchkin"
                         },
                         {
                             "link" : "",
-                            "name" : "Elder scrolls: betrayal of the second era"
+                            "name" : "Smashup Marvel"
                         },
                         {
-                            "link" : "",
-                            "name" : "Clank Catacombs"
-                        },
-                        {
-                            "link" : "",
-                            "name" : "Any smashup expansion besides the following: <br>Smashup 10th anniversary <br>Cthulhu <br>Awesome level 9000 <br>Oops you did it again <br>Science fiction double feature <br>Titans pack"
+                            "name" : "Smashup Disney Edition"
                         }
                     ]
                 }
@@ -124,7 +227,67 @@
         },
         {
             "name" : "Corwin",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "link" : "https://www.amazon.com/hz/wishlist/ls/1OB5KOG82LQY8?ref_=wl_share",
+                    "name" : "Amazon Wishlist"
+                },
+                {
+                    "link" : "",
+                    "name" : "Dremel Tool"
+                },
+                {
+                    "link" : "",
+                    "name" : "any books by C.S. Lewis (I want to read his stuff more)"
+                },
+                {
+                    "link" : "",
+                    "name" : "steam game money (there are some games I'm really excited to play and I'm trying not to spend any money on them out of pocket)"
+                },
+                {
+                    "subsection" : true,
+                    "title" : "DVDs for any of the following films (preferably the criterion collection versions because they are high quality, ad free, and they often have tons of behind the scenes stuff)",
+                    "sublist" : [
+                        {
+                            "link" : "",
+                            "name" : "Come and see"
+                        },
+                        {
+                            "name" : "Won't you be my neighbor?"
+                        },
+                        {
+                            "name" : "Fantastic Mr. Fox"
+                        },
+                        {
+                            "name" : "Playtime (Jacques Tati)"
+                        },
+                        {
+                            "name" : "Lars and the real girl (I want to be able to lend people a physical version of this)"
+                        },
+                        {
+                            "name" : "(anything by Akira Kurosawa)"
+                        },
+                        {
+                            "name" : "Stalker"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Bluetooth speaker (my old one is nearing the end of it's life)"
+                },
+                {
+                    "name" : "a simple sewing machine i.e. singer heavy duty 4452"
+                },
+                {
+                    "name" : "A nice table lamp, love a good lamp"
+                },
+                {
+                    "name" : "A nice sturdy, portable camera tripod"
+                },
+                {
+                    "name" : "A 2 terabyte sata hard drive for expanding my computer's storage"
+                }
+            ]
         },
         {
             "name" : "Elora",
@@ -197,7 +360,12 @@
         },
         {
             "name" : "Kerys",
-            "wishlist" : []
+            "wishlist" : [
+                {
+                    "link" : "https://www.amazon.com/hz/wishlist/ls/3NCQ6E9CGQ5NE?ref=cm_sw_em_r_un_un_XzFrLFoUKqutz",
+                    "name" : "Amazon Wishlist"
+                }
+            ]
         },
         {
             "name" : "Pippin",
