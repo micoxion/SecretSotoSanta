@@ -109,9 +109,9 @@ let buildWishlistTable = function() {
 
 document.addEventListener("DOMContentLoaded", async function() {
     wishlistTable = document.getElementById("wishlist");
-    //PROD: let fileResponse = await fetch("./assets/wishlists.json");
-    //DEV
-    let fileResponse = await fetch("../assets/wishlists.json");
+    //PROD: 
+    let fileResponse = await fetch("./assets/wishlists.json");
+    //DEV: let fileResponse = await fetch("../assets/wishlists.json");
     let json = await fileResponse.json();
     //json = JSON.parse(json);
 
