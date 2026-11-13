@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+#christmas-countdown {
+    font-family: "Mountains Of Christmas", serif;
+    font-size: 1em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(37, 139, 139);
+    transition: font-size .5s ease-in;
+}
+
+#christmas-countdown:hover {
+    font-size: 2em;
+}

@@ -14,6 +14,7 @@ table {
 h1.title {
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
+    padding: 20px;
     text-align: center;
     color: white;
 }
